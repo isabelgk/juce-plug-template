@@ -25,7 +25,7 @@ jobs:
           artifact: Windows
         - os: ubuntu-latest
           artifact: Linux
-        - os: macos-11.0 # TODO: change once macos-latest catches up
+        - os: macos-latest
           artifact: MacOS
 
     steps:
